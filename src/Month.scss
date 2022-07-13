@@ -1,0 +1,49 @@
+
+
+.month {
+    color: white;
+    overflow: hidden;
+    table {
+        border-color: red;
+        border-spacing: 0px;
+        td {
+            padding: 0;
+        }
+    }
+    .day {
+        font-size: 14px;
+        width: 30px;
+        height: 30px;
+        user-select: none;
+        &.name {
+            background-color: rgba(255, 255, 255, 0.134);
+        }
+        &.number {
+            font-size: 11px;
+            background-color: rgba(255, 255, 255, 0.29);
+            color: #ffffffed;
+        }
+        &.empty {
+            background-color: rgba(255, 255, 255, 0.398);
+        }
+    }
+    .label {
+        background: #0000006e;
+        font-size: 18px;
+        padding: 8px;
+        position: relative;
+        &.alternate {
+            background: rgb(72 0 167 / 44%);
+        }
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+    }
+    
+    .year {
+        font-size: 11px;
+        margin: 5px;
+        color: rgba(255, 255, 255, 0.537);
+        position: absolute;
+        right: 0px;
+    }
+}

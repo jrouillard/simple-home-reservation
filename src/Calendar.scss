@@ -1,0 +1,48 @@
+
+.calendar {
+    .months {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        .month {
+            margin: 10px;
+        }
+    }
+    .year-switching {
+        font-size: 39px;
+        button {
+            padding: 0px 11px;
+            font-size: 36px;
+            .chevron-wrapper {
+                margin-left: 0;
+                margin-right: 0;
+                .chevron-left {
+                    margin-left: 0;
+                    margin-right: 0;
+                } 
+                .chevron-right {
+                    margin-left: 0;
+                    margin-right: 0;
+                } 
+            }
+        }
+    }
+    button {
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        font-size: 16px;
+        background: #1818186e;
+        padding: 11px 15px;
+        border-radius: 6px;
+        &:hover {
+            background: rgba(1, 1, 1, 0.062);
+        }
+    }
+    
+}
